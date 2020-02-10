@@ -10,9 +10,9 @@ public class LoopFun
        * @return the factorial of the number
        */
       public Integer factorial(Integer number){
-          String num = "";
+          
           for (int i = 0; i <= number; i++) {
-              num *= i;
+              
           
         }
         return null;
@@ -40,7 +40,8 @@ public class LoopFun
           
           
               
-          
+        
+        return null;
           
       
     }
@@ -57,8 +58,8 @@ public class LoopFun
        * @return the encrypted string by shifting each character by three character
        */
       public String encrypt(String word) {
-          for(int i = 0; i <= word.length; i += 3);{
-          return word(i);
-        }
-      }
+          
+      
+      return null;
+}
 }
