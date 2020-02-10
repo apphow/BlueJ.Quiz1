@@ -8,8 +8,13 @@ public class MathUtilities{
    * @param valueToAdd number
    * @return the sum of the two numbers
    */
+  
+  Integer x;
+  Integer y;
+  
   public Integer add(Integer baseValue, Integer valueToAdd){
-      return null;
+      return baseValue + valueToAdd;
+   
   }
 
   /**
@@ -19,17 +24,26 @@ public class MathUtilities{
    * @return the sum of the two numbers
    */
   public Double add(Double baseValue, Double valueToAdd){
-      return null;
-  }
+      
+        return baseValue + valueToAdd;
+    }
+      
+  
 
   /**
    * Get half the value of the number
    * @param number the number given
    * @return the half of the number in double
    */
+  Double a;
   public Double half(Integer number) {
-      return null;
-  }
+      //return number / 2;
+      a = number/2.0;
+      //a = Double.parseDouble(number);
+      return a;
+    }
+
+ 
 
   /**
    * Determine if the number is odd
@@ -37,7 +51,12 @@ public class MathUtilities{
    * @return true if the number is odd, false if it is even
    */
   public Boolean isOdd(Integer number){
-      return null;
+      
+        if (number % 2 == 0){
+        return false;
+        } else {
+        return true;}
+      
   }
 
 
@@ -47,7 +66,7 @@ public class MathUtilities{
    * @return the result of the number multiply by itself
    */
   public Integer square(Integer number) {
-      return null;
+      return number * number;
   }
 
 }
