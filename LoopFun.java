@@ -29,7 +29,7 @@ public class LoopFun
        * @return Upper case string of the first letter of each word
        */
       public String acronym(String phrase) {
-          //all assumptions below are wrong becase we aren't account for spaces and their index.
+          //all thoughts below would be wrong because I'm not accounting for spaces.
           //phrase.charAt(0, 0); 
           //phrase.charAt(1, 1);
           //String x = "";

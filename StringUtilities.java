@@ -40,13 +40,17 @@ public class StringUtilities {
      * @param word word to get middle character of
      * @return middle character of `word`
      */
-    String a;
+    
+    
     public Character getMiddleCharacter(String word) {
+        
+        char char1 = word.charAt(2);
+        
          
        
         
         
-      return null;   
+      return char1;   
     }
 
     /**
